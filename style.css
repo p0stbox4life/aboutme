@@ -1,19 +1,24 @@
 body {
-  background-color: #222;
-  color: #fff;
-  font-family: 'Product Sans', Arial, sans-serif;
+  background-color: #0f380f;
+  color: #00ff00;
+  font-family: 'Consolas', monospace;
   font-size: 16px;
   line-height: 1.5;
+  background-image: url("https://i.imgur.com/MDHrklO.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 header {
-  background-color: #333;
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
   text-align: center;
 }
 
 header h1 {
   margin: 0;
+  text-shadow: 0 0 10px #00ff00;
 }
 
 main {
@@ -28,9 +33,19 @@ main h3 {
   margin-top: 20px;
 }
 
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li:before {
+  content: ">";
+  margin-right: 5px;
+}
+
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #00ff00;
   padding: 10px;
   text-align: center;
 }
